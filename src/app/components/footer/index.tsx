@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="space-x-4 mb-2 md:mb-0">
               <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
               <span className="hidden md:inline">|</span>
-              <a href="/terms" className="hover:underline">Terms & Conditions</a>
+              <a href="/terms-&-conditions" className="hover:underline">Terms & Conditions</a>
             </div>
             <div className="text-center md:text-right">
               Copyright ©2024 Nansel. All Rights Reserved.

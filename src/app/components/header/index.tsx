@@ -10,17 +10,14 @@ export default function Header() {
   return (
     <header className="bg-background text-foreground w-full border-b border-primary">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
-  
         <Link href="/" className="text-2xl font-bold tracking-wide text-primary">
             <Logo />
         </Link>
-
-        {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 font-medium">
           {/* <Link href="/" className="hover:text-accent">Home</Link> */}
           <Link href="/about-us" className="hover:text-accent">About us</Link>
           <Link href="/our-process" className="hover:text-accent">Our Process</Link>
+          <Link href="/history" className="hover:text-accent">History</Link>
           <Link href="/contact" className="hover:text-accent">Contact</Link>
         </nav>
 
