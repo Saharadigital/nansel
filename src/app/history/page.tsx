@@ -156,11 +156,6 @@ export default function HistoryPage() {
                 modern, values-driven coffee brand. After years working with growers and communities across the region, Anselme Nyiribakwe shaped the Peace Coffee ethos
                 to prioritise fair value for farmers, transparency for customers, and stewardship of the land.
               </p>
-              {/* <p className="prose prose-invert mt-4">
-                Key milestones include [Year] establishing relationships with cooperatives in the South Province, [Year] piloting small-lot processing improvements,
-                and [Year] launching Nansel’s first Peace Coffee releases focused on traceability and community investment.
-              </p> */}
-            
             </div>
            
           </div>
