@@ -1,4 +1,3 @@
-import { Building, Building2, Coffee, Flame, Globe, Globe2, Handshake, Leaf, Package, ShieldCheck, TreePine } from 'lucide-react';
 import Header from './components/header';
 import Hero from './components/hero';
 import OurProcess from './components/process';
@@ -13,10 +12,9 @@ export default function Home() {
       <Header />
       <main className="min-h-screen">
         <Hero />
-     <OurProcess />
+        <OurProcess />
         <TheJourneyOfASingleBean />
-      <WhatWeStandFor />
-      
+        <WhatWeStandFor />
         <ContactHighlight />
        <Footer />
       </main>

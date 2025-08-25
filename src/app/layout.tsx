@@ -8,8 +8,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: 'Nansel | Import & Export',
+  title: 'Nansel',
   description: 'Global import & export excellence.',
+  icons: {
+    icon: '/nansel-logo.svg',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
